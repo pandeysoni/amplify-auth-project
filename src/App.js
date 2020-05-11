@@ -2,7 +2,7 @@ import React from 'react';
 import Amplify from "aws-amplify";
 import {Authenticator, withAuthenticator } from "aws-amplify-react";
 import { SignIn } from "aws-amplify-react";
-import CustomSignIn from "./signIn"
+import CustomSignIn from "./signIn";
 import Bootstrap from "./theme";
 import './App.css';
 import config from "./aws-exports";
