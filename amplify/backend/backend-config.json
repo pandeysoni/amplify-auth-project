@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"amplifyauthproject3c410daf": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
