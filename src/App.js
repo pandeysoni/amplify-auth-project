@@ -8,6 +8,7 @@ import './App.css';
 import config from "./aws-exports";
 Amplify.configure(config);
 
+/**custom auth part 
 const App = () => {
   return (
     <div className="App">
@@ -20,8 +21,9 @@ const App = () => {
 }
 
 export default App;
+*/
 
-/** by defualt auth ui
+/** by defualt auth ui*/
 function App() {
   return (
     <div className="App">
@@ -38,4 +40,4 @@ export default withAuthenticator(App, {
     signUpFields: [{ key: 'name', label: 'Name',required: true, placeholder: 'Enter your name' }]
  }
 });
-*/
+
